@@ -1,36 +1,44 @@
-# Java-AudioPlayer 🎵
+# 🎵 Java Audio Player
 
-A simple audio player built using **Java Swing** that currently supports **WAV**, **AIFF**, and **AU** audio formats. The project is in its **MVP (Minimum Viable Product)** stage and serves as a base for further enhancements.
-
----
-
-## 🚀 Features
-
-* 🎚️ Play, pause, resume, and stop functionality
-* 📂 Choose and load local audio files
-* 🧭 Seek (forward/backward by 10 seconds)
+A basic audio player built with **Java Swing**. It can load and play `.wav`, `.aiff`, and `.au` files using Java's built-in `javax.sound.sampled` package. This is a lightweight desktop application currently in the MVP stage, with a clean UI and essential playback features.
 
 ---
 
-## 📁 Supported Formats (Currently)
+## 🖼️ Features
 
-* `.wav`
-* `.aiff`
-* `.au`
+- 🟢 Play, Pause, Resume functionality
+- ⏪ Seek Backward by 10 seconds
+- ⏩ Seek Forward by 10 seconds
+- 📂 Select audio files from your system
+- 🎛️ Display currently playing file name
+- 🎨 Simple and responsive Swing UI with icons
 
 ---
 
-## 🧠 Planned Features (TODO)
+## 📁 Supported Formats
 
-* ✅ Add support for `.mp3` playback (via JLayer or JavaFX)
-* ✅ Allow selecting and switching files while a track is playing
-* 🔁 Playlist and auto-next
-* 🌗 UI improvements
+- `.wav`
+- `.aiff`
+- `.au`
+
+> 📌 Note: MP3 is **not** supported yet.
+
+---
+
+## 🚧 Planned Features
+
+- [ ] MP3 support (via JLayer or JavaFX)
+- [ ] Select and play new file while current audio is running
+- [ ] Playlist/Queue support
+- [ ] UI improvements (theme switcher, loading bar, etc.)
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Java 8+
-* Java Swing (UI)
-* `javax.sound.sampled` (audio handling)
+- Java 8+
+- Java Swing (GUI)
+- `javax.sound.sampled` for audio playback
+
+---
+
